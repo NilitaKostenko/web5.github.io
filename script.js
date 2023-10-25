@@ -53,7 +53,3 @@ document.addEventListener("DOMContentLoaded", function () {
   let button = document.getElementById("button");
   button.addEventListener("click", getResult);
 });
-
-  r.innerHTML = parseInt(f1[0].value) * f2[0].value;
-  return false;
-}
